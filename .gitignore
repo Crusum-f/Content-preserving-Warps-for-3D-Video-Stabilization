@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated output
+output/
+
+# Original large video8 data (keep only the minimal example)
+input/frames/video8/
+input/sfm/video8/
+input/video/2WL_input.mp4
+
+# Trimming utility (for creating minimal example, not needed for runtime)
+trim_to_minimal.py
